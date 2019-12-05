@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.test.fataar.lib2">
+
+    <application>
+        <activity
+            android:name=".Lib2MainActivity"
+            android:label="@string/lib_2_name" />
+    </application>
+
+</manifest>

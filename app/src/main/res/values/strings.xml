@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SampleApp</string>
+    <string name="start_lib_1">Start Lib 1</string>
+    <string name="start_lib_2">Start Lib 2</string>
+</resources>
