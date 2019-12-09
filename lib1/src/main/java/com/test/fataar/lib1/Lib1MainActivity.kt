@@ -17,6 +17,8 @@ class Lib1MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lib1)
+        //FIXME
+        // As soon as we use any static field (com.test.fataar.lib1.R.*), app crashes.
         lib1View.setText(R.string.lib_1_name)
     }
 }
