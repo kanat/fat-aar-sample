@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_lib1.*
 
 class Lib1MainActivity : AppCompatActivity() {
 
@@ -16,5 +17,6 @@ class Lib1MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lib1)
+        lib1View.setText(R.string.lib_1_name)
     }
 }
