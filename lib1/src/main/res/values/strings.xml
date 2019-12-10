@@ -1,3 +1,4 @@
 <resources>
     <string name="lib_1_name">Lib1</string>
+    <string name="lib_1_button">Material Button 1</string>
 </resources>
